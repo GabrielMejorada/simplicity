@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* navbar */
+.navbar{
+	
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+	background: #D3D3D3;
+}
+
+.navdiv{
+	display: flex; align-items: center; justify-content: space-between; padding-left: 1rem; padding-right: 1rem;
+}
+
+.navdiv  ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+.navdiv a{
+	text-decoration: none;
+}
+
+/* general section layout */
+section{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	overflow-y: hidden;
+}
+
+/* hero section */
+.hero {
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	font-size: 3rem;
+}
+
+/* about section */
+.about {
+	align-items: center; font-size: 2rem;
+}
+
+.container{
+	margin-top: 2rem;
+}
+
+/* experiments section */
+.experiments {
+		  align-items: center; font-size: 2rem;
+	}
+
+@media screen and (min-witdh: 480px) {
+	body{
+		margin-left: 2rem;
+		margin-right:2rem;
+	}
+}	
