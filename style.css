@@ -1,4 +1,9 @@
+html{
+	scroll-behavior: smooth;
+}
+
 *{
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
@@ -30,7 +35,6 @@ section{
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
-	overflow-y: hidden;
 }
 
 /* hero section */
@@ -46,18 +50,15 @@ section{
 	align-items: center; font-size: 2rem;
 }
 
-.container{
-	margin-top: 2rem;
-}
-
 /* experiments section */
 .experiments {
 		  align-items: center; font-size: 2rem;
 	}
 
-@media screen and (min-witdh: 480px) {
-	body{
-		margin-left: 2rem;
-		margin-right:2rem;
+/* phone media query */
+@media screen and (min-witdh: 768px) {
+	section{
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 }	
