@@ -1,11 +1,16 @@
+/* general stuff */
 html{
 	scroll-behavior: smooth;
 }
 
-*{
+body{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+a{
+	text-decoration: none;
 }
 
 /* navbar */
@@ -55,10 +60,22 @@ section{
 		  align-items: center; font-size: 2rem;
 	}
 
+/* Light mode - dark mode toggle */
+.dark-mode{
+	background-color: black;
+	color: white;
+}
+
+.light-mode{
+	background-color: white;
+	color: black;
+}
+
 /* phone media query */
 @media screen and (min-witdh: 768px) {
 	section{
 		padding-left: 2rem;
 		padding-right: 2rem;
 	}
-}	
+}
+
